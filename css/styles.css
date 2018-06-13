@@ -1,8 +1,14 @@
 body {
 	height: 100%;
 }
+.header {
+	text-align: center;
+	background: linear-gradient(to right, #00ffff 0%, #66ff66 100%);
+	margin-right: 200px;
+	margin-left: 200px;
+}
 
-h3 {
+.clicks {
 	font-size: 2em;
 	text-align: center;
 	font-family: 'Sunflower', sans-serif;
