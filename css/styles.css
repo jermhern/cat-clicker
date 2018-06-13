@@ -8,17 +8,30 @@ body {
 	margin-left: 200px;
 }
 
+/*place where both of the cat images sit*/
+.catimg-container {
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*click number on top of page*/
 .clicks {
 	font-size: 2em;
 	text-align: center;
 	font-family: 'Sunflower', sans-serif;
 }
+
+/*cat images */
 .cat {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 20%;
 }
 .cat:active {
 	transform: scale(1.25,1.25);
+}
+
+.catDos {
+	height: 20%;
+	width: 20%;
 }
