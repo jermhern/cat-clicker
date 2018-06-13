@@ -1,5 +1,10 @@
+body {
+	background-image: url('./img/country-quilt.png');
+}
+
 h3 {
 	text-align: center;
+	font-family: 'Anton', sans-serif;
 }
 .cat {
 	display: block;
@@ -8,5 +13,5 @@ h3 {
 	margin-top: 20%;
 }
 .cat:active {
-	transform: scale(2,2);
+	transform: scale(1.25,1.25);
 }
