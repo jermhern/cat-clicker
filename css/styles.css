@@ -1,8 +1,12 @@
 h3 {
 	text-align: center;
 }
-img {
+.cat {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 20%;
+}
+.cat:active {
+	transform: scale(2,2);
 }
